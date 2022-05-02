@@ -1,0 +1,253 @@
+5.0.17(1)-release
+top - 22:04:05 up  9:21,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks: 195 total,   2 running, 193 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.1 us,  7.6 sy,  0.0 ni, 91.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   3916.6 total,   2329.2 free,    830.2 used,    757.2 buff/cache
+MiB Swap:   3921.0 total,   3921.0 free,      0.0 used.   2912.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0  167312  10500   7236 S   0.0   0.3   0:14.71 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.33 kthreadd
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-kblockd
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq
+      9 root      20   0       0      0      0 S   0.0   0.0   0:00.96 ksoftirqd/0
+     10 root      20   0       0      0      0 R   0.0   0.0   0:02.37 rcu_sched
+     11 root      rt   0       0      0      0 S   0.0   0.0   0:00.64 migration/0
+     12 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0
+     14 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
+     15 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1
+     16 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1
+     17 root      rt   0       0      0      0 S   0.0   0.0   0:00.64 migration/1
+     18 root      20   0       0      0      0 S   0.0   0.0   0:00.98 ksoftirqd/1
+     20 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0H-kblockd
+     21 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/2
+     22 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/2
+     23 root      rt   0       0      0      0 S   0.0   0.0   0:00.69 migration/2
+     24 root      20   0       0      0      0 S   0.0   0.0   0:04.26 ksoftirqd/2
+     26 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/2:0H-kblockd
+     27 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/3
+     28 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/3
+     29 root      rt   0       0      0      0 S   0.0   0.0   0:00.80 migration/3
+     30 root      20   0       0      0      0 S   0.0   0.0   0:04.87 ksoftirqd/3
+     32 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/3:0H-kblockd
+     33 root      20   0       0      0      0 S   0.0   0.0   0:00.02 kdevtmpfs
+     34 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns
+     35 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_kthre
+     36 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd
+     37 root      20   0       0      0      0 S   0.0   0.0   0:01.80 khungtaskd
+     38 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_reaper
+     39 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 writeback
+     40 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kcompactd0
+     41 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
+     42 root      39  19       0      0      0 S   0.0   0.0   0:00.00 khugepaged
+     89 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kintegrityd
+     90 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kblockd
+     91 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 blkcg_punt_bio
+     92 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 tpm_dev_wq
+     93 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ata_sff
+     94 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 md
+     95 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 edac-poller
+     96 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 devfreq_wq
+     97 root      rt   0       0      0      0 S   0.0   0.0   0:00.00 watchdogd
+     99 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kswapd0
+    100 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ecryptfs-kthrea
+    102 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kthrotld
+    103 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/41-ACPI:Ged
+    104 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 acpi_thermal_pm
+    108 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ipv6_addrconf
+    117 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kstrp
+    120 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/u9:0
+    127 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 cryptd
+    167 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 charger_manager
+    247 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ttm_swap
+    264 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kdmflush
+    290 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 raid5wq
+    335 root      20   0       0      0      0 S   0.0   0.0   0:01.41 jbd2/dm-0-8
+    336 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ext4-rsv-conver
+    373 root      20   0       0      0      0 S   0.0   0.0   0:00.12 hwrng
+    399 root       0 -20       0      0      0 I   0.0   0.0   0:00.18 kworker/0:1H-kblockd
+    416 root      19  -1   51564  18760  16916 S   0.0   0.5   0:07.83 systemd-journal
+    443 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ipmi-msghandler
+    444 root       0 -20       0      0      0 I   0.0   0.0   0:00.15 kworker/1:1H-kblockd
+    452 root      20   0   23652   6820   3380 S   0.0   0.2   0:06.50 systemd-udevd
+    454 root       0 -20       0      0      0 I   0.0   0.0   0:00.16 kworker/2:1H-kblockd
+    529 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh_0
+    530 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 scsi_tmf_0
+    531 root      20   0       0      0      0 S   0.0   0.0   0:11.08 usb-storage
+    533 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 uas
+    613 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kaluad
+    614 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kmpath_rdacd
+    615 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kmpathd
+    616 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kmpath_handlerd
+    617 root      rt   0  279908  16280   6288 S   0.0   0.4   0:11.72 multipathd
+    628 root       0 -20       0      0      0 S   0.0   0.0   0:00.01 loop0
+    635 root       0 -20       0      0      0 S   0.0   0.0   0:00.00 loop1
+    636 root       0 -20       0      0      0 I   0.0   0.0   0:00.17 kworker/3:1H-kblockd
+    638 root       0 -20       0      0      0 S   0.0   0.0   0:00.00 loop2
+    640 root      20   0       0      0      0 S   0.0   0.0   0:00.01 jbd2/vda2-8
+    643 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ext4-rsv-conver
+    664 systemd+  20   0   89992   6200   5400 S   0.0   0.2   0:02.71 systemd-timesyn
+    709 systemd+  20   0   26120   5864   5072 S   0.0   0.1   0:05.62 systemd-network
+    711 systemd+  20   0   23852  10884   6988 S   0.0   0.3   0:02.94 systemd-resolve
+    744 root      20   0  235832   6752   5844 S   0.0   0.2   0:02.84 accounts-daemon
+    746 avahi     20   0    7008   3028   2700 S   0.0   0.1   0:02.90 avahi-daemon
+    747 root      20   0   28188   7632   6148 S   0.0   0.2   0:00.51 cupsd
+    748 message+  20   0   10456   5976   3444 S   0.0   0.1   0:05.06 dbus-daemon
+    750 root      20   0  261168  17116  14540 S   0.0   0.4   0:07.89 NetworkManager
+    755 root      20   0   80900   2924   2580 S   0.0   0.1   0:06.99 irqbalance
+    757 root      20   0   35492  19184  10624 S   0.0   0.5   0:00.09 networkd-dispat
+    758 root      20   0  239452  10228   6456 S   0.0   0.3   0:03.02 polkitd
+    760 syslog    20   0  220924   4044   3276 S   0.0   0.1   0:02.81 rsyslogd
+    761 root      20   0 1019756  39208  18140 S   0.0   1.0   0:26.22 snapd
+    764 root      20   0  233360   5656   5028 S   0.0   0.1   0:01.02 switcheroo-cont
+    765 root      20   0   16316   7072   6060 S   0.0   0.2   0:04.92 systemd-logind
+    768 root      20   0  391380  10928   9028 S   0.0   0.3   0:02.31 udisksd
+    769 root      20   0   12368   4656   4092 S   0.0   0.1   0:01.14 wpa_supplicant
+    774 avahi     20   0    6876    328      0 S   0.0   0.0   0:00.00 avahi-daemon
+    793 root      20   0  177492  11240   9708 S   0.0   0.3   0:00.36 cups-browsed
+    802 root      20   0  317260   9760   8224 S   0.0   0.2   0:00.24 ModemManager
+    808 root      20   0  113784  21404  13328 S   0.0   0.5   0:00.06 unattended-upgr
+    867 root      20   0    6612   2572   2320 S   0.0   0.1   0:01.78 cron
+    871 whoopsie  20   0  254588  13756  11920 S   0.0   0.3   0:00.20 whoopsie
+    872 daemon    20   0    3592   1896   1728 S   0.0   0.0   0:00.05 atd
+    882 root      20   0    5084   1872   1764 S   0.0   0.0   0:00.00 agetty
+    883 kernoops  20   0   11452   1860   1416 S   0.0   0.0   0:01.45 kerneloops
+    890 kernoops  20   0   11452   1856   1412 S   0.0   0.0   0:01.48 kerneloops
+    894 root      20   0  237560   7828   6648 S   0.0   0.2   0:00.39 gdm3
+    975 rtkit     21   1  152500   2464   2236 S   0.0   0.1   0:01.95 rtkit-daemon
+   1099 root      20   0  250320   9084   7808 S   0.0   0.2   0:00.69 upowerd
+   1381 colord    20   0  243716  13664   8468 S   0.0   0.3   0:00.42 colord
+   1391 root      20   0    6784   1996   1752 S   0.0   0.0   0:04.76 spice-vdagentd
+   1407 root      20   0  314188   9152   7672 S   0.0   0.2   0:00.61 gdm-session-wor
+   1448 jonkehoe  20   0   24040  14124   7100 S   0.0   0.4   0:02.47 systemd
+   1463 jonkehoe  20   0  169384   5024   1700 S   0.0   0.1   0:00.00 (sd-pam)
+   1486 jonkehoe  20   0 1479548  17760  13112 S   0.0   0.4   0:03.31 pulseaudio
+   1488 jonkehoe  39  19 1115776  23092  14972 S   0.0   0.6   0:01.67 tracker-miner-f
+   1491 jonkehoe  20   0   12632   8880   3552 S   0.0   0.2   0:03.20 dbus-daemon
+   1493 jonkehoe  20   0  237720   7280   6316 S   0.0   0.2   0:00.69 gnome-keyring-d
+   1510 jonkehoe  20   0  237348   7076   6140 S   0.0   0.2   0:00.23 gvfsd
+   1518 jonkehoe  20   0  378636   5452   4836 S   0.0   0.1   0:00.05 gvfsd-fuse
+   1521 jonkehoe  20   0  311800   8360   7072 S   0.0   0.2   0:00.28 gvfs-udisks2-vo
+   1538 jonkehoe  20   0  235324   6244   5468 S   0.0   0.2   0:00.14 gvfs-gphoto2-vo
+   1542 jonkehoe  20   0  233348   4604   4128 S   0.0   0.1   0:00.18 gvfs-mtp-volume
+   1546 jonkehoe  20   0  314608   7732   6836 S   0.0   0.2   0:03.52 gvfs-afc-volume
+   1551 jonkehoe  20   0  233460   5804   5232 S   0.0   0.1   0:00.18 gvfs-goa-volume
+   1555 jonkehoe  20   0  545692  32068  25996 S   0.0   0.8   0:00.27 goa-daemon
+   1562 jonkehoe  20   0  386372   8252   7212 S   0.0   0.2   0:00.32 goa-identity-se
+   1576 jonkehoe  20   0  161544   5788   5172 S   0.0   0.1   0:00.04 gdm-x-session
+   1579 jonkehoe  20   0  812912  92440  54532 S   0.0   2.3   1:14.33 Xorg
+   1623 jonkehoe  20   0  185272  11884  10412 S   0.0   0.3   0:00.02 gnome-session-b
+   1692 jonkehoe  20   0    5276    436      0 S   0.0   0.0   0:01.01 ssh-agent
+   1709 jonkehoe  20   0  305848   5972   5420 S   0.0   0.1   0:00.08 at-spi-bus-laun
+   1714 jonkehoe  20   0    7920   3940   3488 S   0.0   0.1   0:00.37 dbus-daemon
+   1740 jonkehoe  20   0   87536   2260   1912 S   0.0   0.1   0:00.00 gnome-session-c
+   1758 jonkehoe  20   0  156380   5128   4556 S   0.0   0.1   0:00.23 dconf-service
+   1762 jonkehoe  20   0  817352  13988  11444 S   0.0   0.3   0:01.12 gnome-session-b
+   1775 jonkehoe  20   0 5270672 419400 128164 S   0.0  10.5   5:00.61 gnome-shell
+   1804 jonkehoe  20   0  382432   7760   6296 S   0.0   0.2   0:00.42 ibus-daemon
+   1810 jonkehoe  20   0  160396   6388   5780 S   0.0   0.2   0:00.06 ibus-memconf
+   1811 jonkehoe  20   0  273104  30220  16708 S   0.0   0.8   0:02.14 ibus-extension-
+   1815 jonkehoe  20   0  195252  26724  16972 S   0.0   0.7   0:01.11 ibus-x11
+   1818 jonkehoe  20   0  234200   5672   5228 S   0.0   0.1   0:00.24 ibus-portal
+   1826 jonkehoe  20   0  233196   4752   4304 S   0.0   0.1   0:00.06 xdg-permission-
+   1833 jonkehoe  20   0  161412   6768   6060 S   0.0   0.2   0:01.11 at-spi2-registr
+   1834 jonkehoe  20   0  582172  15900  13548 S   0.0   0.4   0:00.27 gnome-shell-cal
+   1844 jonkehoe  20   0 1069732  23352  19548 S   0.0   0.6   0:00.30 evolution-sourc
+   1853 jonkehoe  20   0  854612  28116  24192 S   0.0   0.7   0:00.44 evolution-calen
+   1864 jonkehoe  20   0  746768  28000  24508 S   0.0   0.7   0:00.32 evolution-addre
+   1868 jonkehoe  20   0  311508   7220   6256 S   0.0   0.2   0:00.29 gvfsd-trash
+   1875 jonkehoe  20   0  160060   5832   5172 S   0.0   0.1   0:00.71 gvfsd-metadata
+   1881 jonkehoe  20   0 2728668  24664  19572 S   0.0   0.6   0:00.22 gjs
+   1904 jonkehoe  20   0  307356   5868   5280 S   0.0   0.1   0:00.07 gsd-a11y-settin
+   1905 jonkehoe  20   0  641704  28940  18556 S   0.0   0.7   0:05.96 gsd-color
+   1906 jonkehoe  20   0  371580  14136  12240 S   0.0   0.4   0:00.09 gsd-datetime
+   1907 jonkehoe  20   0  308960   6776   6036 S   0.0   0.2   0:07.61 gsd-housekeepin
+   1908 jonkehoe  20   0  343504  27308  17388 S   0.0   0.7   0:02.47 gsd-keyboard
+   1909 jonkehoe  20   0  757984  29160  18740 S   0.0   0.7   0:01.84 gsd-media-keys
+   1910 jonkehoe  20   0  417868  28092  18016 S   0.0   0.7   0:03.05 gsd-power
+   1911 jonkehoe  20   0  246280   9880   8540 S   0.0   0.2   0:00.31 gsd-print-notif
+   1912 jonkehoe  20   0  454852   5836   5120 S   0.0   0.1   0:00.16 gsd-rfkill
+   1913 jonkehoe  20   0  233164   4540   4152 S   0.0   0.1   0:00.07 gsd-screensaver
+   1914 jonkehoe  20   0  462968   8928   7800 S   0.0   0.2   0:01.61 gsd-sharing
+   1925 jonkehoe  20   0  459976   7632   6804 S   0.0   0.2   0:00.08 gsd-smartcard
+   1928 jonkehoe  20   0  315076   8116   7136 S   0.0   0.2   0:00.08 gsd-sound
+   1932 jonkehoe  20   0  382104   6236   5500 S   0.0   0.2   0:00.19 gsd-usb-protect
+   1939 jonkehoe  20   0  342928  26724  16712 S   0.0   0.7   0:01.27 gsd-wacom
+   1940 jonkehoe  20   0  385444   7248   6360 S   0.0   0.2   0:00.07 gsd-wwan
+   1957 jonkehoe  20   0  344000  28196  17704 S   0.0   0.7   0:02.04 gsd-xsettings
+   1979 jonkehoe  20   0  199108  27620  17400 S   0.0   0.7   0:01.74 spice-vdagent
+   1986 jonkehoe  20   0  160396   6508   5872 S   0.0   0.2   0:00.17 ibus-engine-sim
+   2009 jonkehoe  20   0  339936  12532  10796 S   0.0   0.3   0:00.56 gsd-printer
+   2010 jonkehoe  20   0  639288  53760  38268 S   0.0   1.3   0:02.85 evolution-alarm
+   2028 jonkehoe  20   0  231440   5660   4656 S   0.0   0.1   0:00.11 gsd-disk-utilit
+   2247 jonkehoe  20   0  419184  32736  23264 S   0.0   0.8   0:08.58 update-notifier
+   2378 jonkehoe  20   0  714500  53936  39008 S   0.0   1.3   0:05.17 gnome-calendar
+   3169 root      20   0       0      0      0 I   0.0   0.0   0:07.81 kworker/1:2-events
+   3355 root      20   0       0      0      0 I   0.0   0.0   0:02.44 kworker/2:3-events
+   3572 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker/1:1-events
+   3647 root      20   0       0      0      0 I   0.0   0.0   0:00.64 kworker/3:0-events
+   3940 root      20   0       0      0      0 I   0.0   0.0   0:01.24 kworker/0:1-events
+   3978 root      20   0       0      0      0 I   0.0   0.0   0:00.61 kworker/u8:2-efi_rts_wq
+   3989 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker/3:3-events
+   4057 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0-events
+   4127 jonkehoe  20   0  468056  42528  25696 S   0.0   1.1   0:00.97 seahorse
+   4129 jonkehoe  20   0  810136  48560  36140 S   0.0   1.2   0:08.73 gnome-terminal-
+   4186 jonkehoe  20   0    7912   4620   3080 S   0.0   0.1   0:01.15 bash
+   4227 root      20   0       0      0      0 I   0.0   0.0   0:00.18 kworker/u8:0-events_power_efficient
+   4323 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker/2:0-events
+   4335 root      20   0       0      0      0 I   0.0   0.0   0:00.07 kworker/u8:1-events_unbound
+   4336 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0
+   4341 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker/3:1-mm_percpu_wq
+   4345 jonkehoe  20   0    8944   3124   2752 R   0.0   0.1   0:00.12 top
+MemTotal:        4010644 kB
+MemFree:         2385140 kB
+MemAvailable:    2982756 kB
+Buffers:           42600 kB
+Cached:           667544 kB
+SwapCached:            0 kB
+Active:          1010136 kB
+Inactive:         374656 kB
+Active(anon):     676764 kB
+Inactive(anon):    15904 kB
+Active(file):     333372 kB
+Inactive(file):   358752 kB
+Unevictable:       16816 kB
+Mlocked:           16816 kB
+SwapTotal:       4015100 kB
+SwapFree:        4015100 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:        691460 kB
+Mapped:           241008 kB
+Shmem:             17192 kB
+KReclaimable:      65272 kB
+Slab:             155936 kB
+SReclaimable:      65272 kB
+SUnreclaim:        90664 kB
+KernelStack:        7024 kB
+PageTables:        11272 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     6020420 kB
+Committed_AS:    3613484 kB
+VmallocTotal:   135290159040 kB
+VmallocUsed:       19116 kB
+VmallocChunk:          0 kB
+Percpu:             2560 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:          32768 kB
+CmaFree:           32384 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
